@@ -84,7 +84,7 @@
 }
 
 #img1{
-    /*background-image: url(/dist/assets/burger.jpg);*/
+    background-image: url(assets/burger.jpg);
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@
 }
 
 #img2{
-    /*background-image: url(/dist/assets/pizza.jpg);*/
+    background-image: url(assets/pizza.jpg);
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@
 }
 
 #img3{
-    /*background-image: url(/dist/assets/tacos.jpg);*/
+    background-image: url(assets/tacos.jpg);
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
@@ -129,7 +129,7 @@
 }
 
 #img4{
-    /*background-image: url(/dist/assets/pasta.jpg);*/
+    background-image: url(assets/pasta.jpg);
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
