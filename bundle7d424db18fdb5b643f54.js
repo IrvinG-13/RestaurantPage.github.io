@@ -263,8 +263,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! assets/img-bg.jpg */ "./src/assets/img-bg.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! assets/burger.jpg */ "./src/assets/burger.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! assets/pizza.jpg */ "./src/assets/pizza.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! assets/tacos.jpg */ "./src/assets/tacos.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! assets/pasta.jpg */ "./src/assets/pasta.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `*{
     margin: 0;
@@ -352,7 +360,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `*{
 }
 
 #img1{
-    /*background-image: url(/dist/assets/burger.jpg);*/
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
@@ -367,7 +375,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `*{
 }
 
 #img2{
-    /*background-image: url(/dist/assets/pizza.jpg);*/
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
@@ -382,7 +390,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `*{
 }
 
 #img3{
-    /*background-image: url(/dist/assets/tacos.jpg);*/
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_3___});
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
@@ -397,7 +405,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `*{
 }
 
 #img4{
-    /*background-image: url(/dist/assets/pasta.jpg);*/
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_4___});
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
@@ -492,7 +500,7 @@ button{
         display: flex;
         flex-direction: column;
     }
-}`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;IACI,SAAS;AACb;;AAEA;IACI,oCAAoC;IACpC,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,aAAa;IACb,yBAAyB;AAC7B;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,WAAW;IACX,oCAAoC;IACpC,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,wBAAwB;AAC5B;;AAEA,sBAAsB;AACtB;IACI,aAAa;IACb,sBAAsB;IACtB,kBAAkB;IAClB,YAAY;IACZ,uBAAuB;IACvB;;;;6CAIwB;IACxB,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;AACtC;;AAEA;IACI,eAAe;IACf,mBAAmB;IACnB,iBAAiB;IACjB,wBAAwB;AAC5B;;AAEA;IACI,eAAe;IACf,WAAW;AACf;;AAEA,cAAc;;AAEd;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,kBAAkB;IAClB,mBAAmB;IACnB,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,YAAY;AAChB;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,OAAO;IACP,kBAAkB;AACtB;;AAEA;IACI,kDAAkD;IAClD,WAAW;IACX,aAAa;IACb,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;IAClC,gCAAgC;AACpC;;AAEA;IACI,gBAAgB;IAChB,qBAAqB;AACzB;;AAEA;IACI,iDAAiD;IACjD,WAAW;IACX,aAAa;IACb,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;IAClC,gCAAgC;AACpC;;AAEA;IACI,gBAAgB;IAChB,qBAAqB;AACzB;;AAEA;IACI,iDAAiD;IACjD,WAAW;IACX,aAAa;IACb,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;IAClC,gCAAgC;AACpC;;AAEA;IACI,gBAAgB;IAChB,qBAAqB;AACzB;;AAEA;IACI,iDAAiD;IACjD,WAAW;IACX,aAAa;IACb,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;IAClC,gCAAgC;AACpC;;AAEA;IACI,gBAAgB;IAChB,qBAAqB;AACzB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,kBAAkB;IAClB,eAAe;IACf,aAAa;AACjB;;AAEA,UAAU;;AAEV;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,OAAO;IACP,sBAAsB;IACtB,aAAa;IACb,uBAAuB;IACvB,gBAAgB;IAChB,mBAAmB;IACnB,gCAAgC;AACpC;;AAEA;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,gBAAgB;IAChB,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,mBAAmB;IACnB,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,YAAY;AAChB;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,WAAW;IACX,eAAe;IACf,gCAAgC;IAChC,YAAY;AAChB;;AAEA,aAAa;;AAEb;IACI;QACI,aAAa;QACb,sBAAsB;IAC1B;AACJ;;AAEA;IACI;QACI,aAAa;QACb,sBAAsB;IAC1B;AACJ","sourcesContent":["*{\r\n    margin: 0;\r\n}\r\n\r\n#content{\r\n    font-family: 'Open Sans', sans-serif;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n#header{\r\n    display: flex;\r\n    justify-content: center;\r\n    padding: 10px;\r\n    background-color: #151723;\r\n}\r\n\r\n.tab{\r\n    padding: 10px;\r\n    margin: 10px;\r\n    color: #fff;\r\n    border: 2px solid rgb(209, 209, 209);\r\n    border-radius: 10px;\r\n}\r\n\r\n.tab:hover{\r\n    cursor: pointer;\r\n    transition: 0.5s;\r\n    background-color: orange;\r\n}\r\n\r\n/*styles of main page*/\r\n#page-content-main{\r\n    display: flex;\r\n    flex-direction: column;\r\n    text-align: center;\r\n    height: 87vh;\r\n    justify-content: center;\r\n    background: linear-gradient(\r\n        0deg,\r\n        rgba(0,0,0,0.5),\r\n        rgba(0,0,0,0.5)\r\n    ),url(assets/img-bg.jpg);\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n}\r\n\r\n#title-main{\r\n    font-size: 40px;\r\n    margin-bottom: 20px;\r\n    font-weight: bold;\r\n    color: rgb(244, 210, 72);\r\n}\r\n\r\n#parrot-main{\r\n    font-size: 20px;\r\n    color: #fff;\r\n}\r\n\r\n/* Menu page */\r\n\r\n#page-content-menu{\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n#title-menu{\r\n    text-align: center;\r\n    margin-bottom: 10px;\r\n    padding: 10px;\r\n}\r\n\r\n#gallery{\r\n    display: flex;\r\n    height: 100%;\r\n}\r\n\r\n#fig1, #fig2, #fig3, #fig4{\r\n    margin: 10px;\r\n    padding: 10px;\r\n    flex: 1;\r\n    text-align: center;\r\n}\r\n\r\n#img1{\r\n    /*background-image: url(/dist/assets/burger.jpg);*/\r\n    width: 100%;\r\n    height: 200px;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#img1:hover{\r\n    transition: 0.5s;\r\n    transform: scale(1.1);\r\n}\r\n\r\n#img2{\r\n    /*background-image: url(/dist/assets/pizza.jpg);*/\r\n    width: 100%;\r\n    height: 200px;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#img2:hover{\r\n    transition: 0.5s;\r\n    transform: scale(1.1);\r\n}\r\n\r\n#img3{\r\n    /*background-image: url(/dist/assets/tacos.jpg);*/\r\n    width: 100%;\r\n    height: 200px;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#img3:hover{\r\n    transition: 0.5s;\r\n    transform: scale(1.1);\r\n}\r\n\r\n#img4{\r\n    /*background-image: url(/dist/assets/pasta.jpg);*/\r\n    width: 100%;\r\n    height: 200px;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#img4:hover{\r\n    transition: 0.5s;\r\n    transform: scale(1.1);\r\n}\r\n\r\ncaption{\r\n    display: flex;\r\n    justify-content: center;\r\n    text-align: center;\r\n    font-size: 20px;\r\n    padding: 10px;\r\n}\r\n\r\n/*Contact*/\r\n\r\n#page-content-contact{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#title-contact{\r\n    text-align: center;\r\n    margin-top: 20px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.contact-form{\r\n    display: flex;\r\n    width: 350px;\r\n    flex: 1;\r\n    flex-direction: column;\r\n    padding: 10px;\r\n    justify-content: center;\r\n    margin-top: 20px;\r\n    border-radius: 10px;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#divInput1, #divInput2, #divInput3{\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\nlabel{\r\n    margin-top: 10px;\r\n    margin-bottom: 10px;\r\n    font-weight: bold;\r\n}\r\n\r\ninput{\r\n    margin-bottom: 10px;\r\n    padding: 10px;\r\n}\r\n\r\n#submitContainer{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    margin: 10px;\r\n}\r\n\r\nbutton{\r\n    padding: 10px;\r\n    width: 140px;\r\n    color: #fff;\r\n    font-size: 20px;\r\n    background-color: rgb(0, 162, 0);\r\n    border: none;\r\n}\r\n\r\n/*Responsive*/\r\n\r\n@media only screen and (max-width: 400px) {\r\n    #gallery{\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 401px) and (max-width: 960px) {\r\n    #gallery {\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;IACI,SAAS;AACb;;AAEA;IACI,oCAAoC;IACpC,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,aAAa;IACb,yBAAyB;AAC7B;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,WAAW;IACX,oCAAoC;IACpC,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,wBAAwB;AAC5B;;AAEA,sBAAsB;AACtB;IACI,aAAa;IACb,sBAAsB;IACtB,kBAAkB;IAClB,YAAY;IACZ,uBAAuB;IACvB;;;;6CAIwB;IACxB,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;AACtC;;AAEA;IACI,eAAe;IACf,mBAAmB;IACnB,iBAAiB;IACjB,wBAAwB;AAC5B;;AAEA;IACI,eAAe;IACf,WAAW;AACf;;AAEA,cAAc;;AAEd;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,kBAAkB;IAClB,mBAAmB;IACnB,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,YAAY;AAChB;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,OAAO;IACP,kBAAkB;AACtB;;AAEA;IACI,yDAAwC;IACxC,WAAW;IACX,aAAa;IACb,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;IAClC,gCAAgC;AACpC;;AAEA;IACI,gBAAgB;IAChB,qBAAqB;AACzB;;AAEA;IACI,yDAAuC;IACvC,WAAW;IACX,aAAa;IACb,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;IAClC,gCAAgC;AACpC;;AAEA;IACI,gBAAgB;IAChB,qBAAqB;AACzB;;AAEA;IACI,yDAAuC;IACvC,WAAW;IACX,aAAa;IACb,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;IAClC,gCAAgC;AACpC;;AAEA;IACI,gBAAgB;IAChB,qBAAqB;AACzB;;AAEA;IACI,yDAAuC;IACvC,WAAW;IACX,aAAa;IACb,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;IAClC,gCAAgC;AACpC;;AAEA;IACI,gBAAgB;IAChB,qBAAqB;AACzB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,kBAAkB;IAClB,eAAe;IACf,aAAa;AACjB;;AAEA,UAAU;;AAEV;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,OAAO;IACP,sBAAsB;IACtB,aAAa;IACb,uBAAuB;IACvB,gBAAgB;IAChB,mBAAmB;IACnB,gCAAgC;AACpC;;AAEA;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,gBAAgB;IAChB,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,mBAAmB;IACnB,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,YAAY;AAChB;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,WAAW;IACX,eAAe;IACf,gCAAgC;IAChC,YAAY;AAChB;;AAEA,aAAa;;AAEb;IACI;QACI,aAAa;QACb,sBAAsB;IAC1B;AACJ;;AAEA;IACI;QACI,aAAa;QACb,sBAAsB;IAC1B;AACJ","sourcesContent":["*{\r\n    margin: 0;\r\n}\r\n\r\n#content{\r\n    font-family: 'Open Sans', sans-serif;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n#header{\r\n    display: flex;\r\n    justify-content: center;\r\n    padding: 10px;\r\n    background-color: #151723;\r\n}\r\n\r\n.tab{\r\n    padding: 10px;\r\n    margin: 10px;\r\n    color: #fff;\r\n    border: 2px solid rgb(209, 209, 209);\r\n    border-radius: 10px;\r\n}\r\n\r\n.tab:hover{\r\n    cursor: pointer;\r\n    transition: 0.5s;\r\n    background-color: orange;\r\n}\r\n\r\n/*styles of main page*/\r\n#page-content-main{\r\n    display: flex;\r\n    flex-direction: column;\r\n    text-align: center;\r\n    height: 87vh;\r\n    justify-content: center;\r\n    background: linear-gradient(\r\n        0deg,\r\n        rgba(0,0,0,0.5),\r\n        rgba(0,0,0,0.5)\r\n    ),url(assets/img-bg.jpg);\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n}\r\n\r\n#title-main{\r\n    font-size: 40px;\r\n    margin-bottom: 20px;\r\n    font-weight: bold;\r\n    color: rgb(244, 210, 72);\r\n}\r\n\r\n#parrot-main{\r\n    font-size: 20px;\r\n    color: #fff;\r\n}\r\n\r\n/* Menu page */\r\n\r\n#page-content-menu{\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n#title-menu{\r\n    text-align: center;\r\n    margin-bottom: 10px;\r\n    padding: 10px;\r\n}\r\n\r\n#gallery{\r\n    display: flex;\r\n    height: 100%;\r\n}\r\n\r\n#fig1, #fig2, #fig3, #fig4{\r\n    margin: 10px;\r\n    padding: 10px;\r\n    flex: 1;\r\n    text-align: center;\r\n}\r\n\r\n#img1{\r\n    background-image: url(assets/burger.jpg);\r\n    width: 100%;\r\n    height: 200px;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#img1:hover{\r\n    transition: 0.5s;\r\n    transform: scale(1.1);\r\n}\r\n\r\n#img2{\r\n    background-image: url(assets/pizza.jpg);\r\n    width: 100%;\r\n    height: 200px;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#img2:hover{\r\n    transition: 0.5s;\r\n    transform: scale(1.1);\r\n}\r\n\r\n#img3{\r\n    background-image: url(assets/tacos.jpg);\r\n    width: 100%;\r\n    height: 200px;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#img3:hover{\r\n    transition: 0.5s;\r\n    transform: scale(1.1);\r\n}\r\n\r\n#img4{\r\n    background-image: url(assets/pasta.jpg);\r\n    width: 100%;\r\n    height: 200px;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#img4:hover{\r\n    transition: 0.5s;\r\n    transform: scale(1.1);\r\n}\r\n\r\ncaption{\r\n    display: flex;\r\n    justify-content: center;\r\n    text-align: center;\r\n    font-size: 20px;\r\n    padding: 10px;\r\n}\r\n\r\n/*Contact*/\r\n\r\n#page-content-contact{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#title-contact{\r\n    text-align: center;\r\n    margin-top: 20px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.contact-form{\r\n    display: flex;\r\n    width: 350px;\r\n    flex: 1;\r\n    flex-direction: column;\r\n    padding: 10px;\r\n    justify-content: center;\r\n    margin-top: 20px;\r\n    border-radius: 10px;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#divInput1, #divInput2, #divInput3{\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\nlabel{\r\n    margin-top: 10px;\r\n    margin-bottom: 10px;\r\n    font-weight: bold;\r\n}\r\n\r\ninput{\r\n    margin-bottom: 10px;\r\n    padding: 10px;\r\n}\r\n\r\n#submitContainer{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    margin: 10px;\r\n}\r\n\r\nbutton{\r\n    padding: 10px;\r\n    width: 140px;\r\n    color: #fff;\r\n    font-size: 20px;\r\n    background-color: rgb(0, 162, 0);\r\n    border: none;\r\n}\r\n\r\n/*Responsive*/\r\n\r\n@media only screen and (max-width: 400px) {\r\n    #gallery{\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 401px) and (max-width: 960px) {\r\n    #gallery {\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -974,6 +982,16 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/assets/burger.jpg":
+/*!*******************************!*\
+  !*** ./src/assets/burger.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "burger.jpg";
+
+/***/ }),
+
 /***/ "./src/assets/img-bg.jpg":
 /*!*******************************!*\
   !*** ./src/assets/img-bg.jpg ***!
@@ -981,6 +999,36 @@ module.exports = styleTagTransform;
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img-bg.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/pasta.jpg":
+/*!******************************!*\
+  !*** ./src/assets/pasta.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "pasta.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/pizza.jpg":
+/*!******************************!*\
+  !*** ./src/assets/pizza.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "pizza.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/tacos.jpg":
+/*!******************************!*\
+  !*** ./src/assets/tacos.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "tacos.jpg";
 
 /***/ })
 
@@ -1143,4 +1191,4 @@ initialLoad();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundleb7570b47a9df17e8b4d4.js.map
+//# sourceMappingURL=bundle7d424db18fdb5b643f54.js.map
