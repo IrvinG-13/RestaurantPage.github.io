@@ -2,6 +2,78 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ contact)
+/* harmony export */ });
+function contact() {
+  var content = document.getElementById('content');
+  var pageContent = document.createElement('div');
+  pageContent.classList.add('page-content');
+  pageContent.setAttribute('id', 'page-content-contact');
+
+  //Title
+
+  var titleContact = document.createElement('h1');
+  titleContact.setAttribute('id', 'title-contact');
+  titleContact.textContent = 'Contact Us';
+  pageContent.appendChild(titleContact);
+
+  //Form
+
+  var form = document.createElement('form');
+  form.classList.add('contact-form');
+  pageContent.appendChild(form);
+
+  //Inputs and Labels
+  var divInput1 = document.createElement('div');
+  var label1 = document.createElement('label');
+  var input1 = document.createElement('input');
+  divInput1.setAttribute('id', 'divInput1');
+  label1.textContent = 'Name';
+  input1.placeholder = 'Jhon';
+  input1.type = 'text';
+  form.appendChild(divInput1);
+  divInput1.appendChild(label1);
+  divInput1.appendChild(input1);
+  var divInput2 = document.createElement('div');
+  var label2 = document.createElement('label');
+  var input2 = document.createElement('input');
+  divInput2.setAttribute('id', 'divInput2');
+  label2.textContent = 'Surname';
+  input2.placeholder = 'Doe';
+  input2.type = 'text';
+  form.appendChild(divInput2);
+  divInput2.appendChild(label2);
+  divInput2.appendChild(input2);
+  var divInput3 = document.createElement('div');
+  var label3 = document.createElement('label');
+  var input3 = document.createElement('input');
+  divInput3.setAttribute('id', 'divInput3');
+  label3.textContent = 'Email';
+  input3.placeholder = 'jhonDoe@gmail.com';
+  input3.type = 'email';
+  form.appendChild(divInput3);
+  divInput3.appendChild(label3);
+  divInput3.appendChild(input3);
+  var divbtn = document.createElement('div');
+  var btnSubmit = document.createElement('button');
+  divbtn.setAttribute('id', 'submitContainer');
+  btnSubmit.setAttribute('id', 'btnSumbit');
+  btnSubmit.textContent = 'Submit';
+  form.appendChild(divbtn);
+  divbtn.appendChild(btnSubmit);
+  content.appendChild(pageContent);
+}
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -15,11 +87,157 @@ __webpack_require__.r(__webpack_exports__);
 function home() {
   var content = document.getElementById('content');
   var pageContent = document.createElement('div');
-  pageContent.setAttribute('id', 'page-content');
-  content.appendChild(pageContent);
+  pageContent.classList.add('page-content');
+
+  //pageContent
+  pageContent.setAttribute('id', 'page-content-main');
+
+  //Title of main
   var title = document.createElement('h1');
-  title.textContent = 'Hi world';
+  title.setAttribute('id', 'title-main');
+  title.textContent = 'Welcome To Our Restaurant';
   pageContent.appendChild(title);
+
+  //parrot of main
+  var parrot = document.createElement('p');
+  parrot.setAttribute('id', 'parrot-main');
+  parrot.textContent = "Welcome to our charming restaurant, where we embrace you with a fusion of delectable flavors and warm hospitality!";
+  pageContent.appendChild(parrot);
+  content.appendChild(pageContent);
+}
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ menu)
+/* harmony export */ });
+function menu() {
+  var content = document.getElementById('content');
+  var pageContent = document.createElement('div');
+  pageContent.classList.add('page-content');
+
+  //Page Content
+  pageContent.setAttribute('id', 'page-content-menu');
+
+  //Title
+  var titleMenu = document.createElement('h1');
+  titleMenu.setAttribute('id', 'title-menu');
+  titleMenu.textContent = 'Menu';
+  pageContent.appendChild(titleMenu);
+
+  //gallery
+
+  var gallery = document.createElement('div');
+  gallery.setAttribute('id', 'gallery');
+  pageContent.appendChild(gallery);
+
+  //images of gallery
+
+  var fig1 = document.createElement('figure');
+  var img1 = document.createElement('img');
+  var cap1 = document.createElement('caption');
+  fig1.setAttribute('id', 'fig1');
+  img1.setAttribute('id', 'img1');
+  cap1.textContent = 'Burgers';
+  gallery.appendChild(fig1);
+  fig1.appendChild(img1);
+  fig1.appendChild(cap1);
+  var fig2 = document.createElement('figure');
+  var img2 = document.createElement('img');
+  var cap2 = document.createElement('caption');
+  fig2.setAttribute('id', 'fig2');
+  img2.setAttribute('id', 'img2');
+  cap2.textContent = 'Pizzas';
+  gallery.appendChild(fig2);
+  fig2.appendChild(img2);
+  fig2.appendChild(cap2);
+  var fig3 = document.createElement('figure');
+  var img3 = document.createElement('img');
+  var cap3 = document.createElement('caption');
+  fig3.setAttribute('id', 'fig3');
+  img3.setAttribute('id', 'img3');
+  cap3.textContent = 'Tacos';
+  gallery.appendChild(fig3);
+  fig3.appendChild(img3);
+  fig3.appendChild(cap3);
+  var fig4 = document.createElement('figure');
+  var img4 = document.createElement('img');
+  var cap4 = document.createElement('caption');
+  fig4.setAttribute('id', 'fig4');
+  img4.setAttribute('id', 'img4');
+  cap4.textContent = 'Pastas';
+  gallery.appendChild(fig4);
+  fig4.appendChild(img4);
+  fig4.appendChild(cap4);
+  content.appendChild(pageContent);
+}
+
+/***/ }),
+
+/***/ "./src/nav.js":
+/*!********************!*\
+  !*** ./src/nav.js ***!
+  \********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ nav)
+/* harmony export */ });
+/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
+/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ "./src/home.js");
+/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu */ "./src/menu.js");
+
+
+
+function nav() {
+  var content = document.getElementById('content');
+  var div1 = document.createElement('div');
+  var div2 = document.createElement('div');
+  var div3 = document.createElement('div');
+  div1.setAttribute('id', 'home-btn');
+  div2.setAttribute('id', 'menu-btn');
+  div3.setAttribute('id', 'contact-btn');
+  div1.classList.add('tab');
+  div2.classList.add('tab');
+  div3.classList.add('tab');
+  div1.textContent = 'Home';
+  div2.textContent = 'Menu';
+  div3.textContent = 'Contact';
+  div1.addEventListener('click', function () {
+    clear();
+    (0,_home__WEBPACK_IMPORTED_MODULE_1__["default"])();
+  });
+  div2.addEventListener('click', function () {
+    clear();
+    (0,_menu__WEBPACK_IMPORTED_MODULE_2__["default"])();
+  });
+  div3.addEventListener('click', function () {
+    clear();
+    (0,_contact__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  });
+
+  //header
+  var header = document.createElement('header');
+  header.setAttribute('id', 'header');
+  header.appendChild(div1);
+  header.appendChild(div2);
+  header.appendChild(div3);
+  content.appendChild(header);
+}
+function clear() {
+  var content = document.getElementById('content');
+  var pageContent = document.querySelector('.page-content');
+  if (pageContent) {
+    content.removeChild(pageContent);
+  }
 }
 
 /***/ }),
@@ -48,23 +266,233 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `body{
-    font-family: Arial, Helvetica, sans-serif;
+___CSS_LOADER_EXPORT___.push([module.id, `*{
+    margin: 0;
 }
 
-h1{
-    color: red;
-}
-
-#page-content{
+#content{
+    font-family: 'Open Sans', sans-serif;
     display: flex;
-    background: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
-    height: 90vh;
+    flex-direction: column;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #151723;
+}
+
+.tab{
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 10px;
+}
+
+.tab:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: orange;
+}
+
+/*styles of main page*/
+#page-content-main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 87vh;
+    justify-content: center;
+    background: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url(${___CSS_LOADER_URL_REPLACEMENT_0___});
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
-`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;IACI,yCAAyC;AAC7C;;AAEA;IACI,UAAU;AACd;;AAEA;IACI,aAAa;IACb,mDAAkC;IAClC,YAAY;IACZ,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;AACtC","sourcesContent":["body{\r\n    font-family: Arial, Helvetica, sans-serif;\r\n}\r\n\r\nh1{\r\n    color: red;\r\n}\r\n\r\n#page-content{\r\n    display: flex;\r\n    background: url(assets/img-bg.jpg);\r\n    height: 90vh;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n}\r\n"],"sourceRoot":""}]);
+
+#title-main{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(244, 210, 72);
+}
+
+#parrot-main{
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Menu page */
+
+#page-content-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+#title-menu{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#gallery{
+    display: flex;
+    height: 100%;
+}
+
+#fig1, #fig2, #fig3, #fig4{
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+#img1{
+    /*background-image: url(/dist/assets/burger.jpg);*/
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 5px 5px 10px #616161;
+}
+
+#img1:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+#img2{
+    /*background-image: url(/dist/assets/pizza.jpg);*/
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 5px 5px 10px #616161;
+}
+
+#img2:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+#img3{
+    /*background-image: url(/dist/assets/tacos.jpg);*/
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 5px 5px 10px #616161;
+}
+
+#img3:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+#img4{
+    /*background-image: url(/dist/assets/pasta.jpg);*/
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 5px 5px 10px #616161;
+}
+
+#img4:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+caption{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/*Contact*/
+
+#page-content-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-contact{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form{
+    display: flex;
+    width: 350px;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #616161;
+}
+
+#divInput1, #divInput2, #divInput3{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#submitContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+button{
+    padding: 10px;
+    width: 140px;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(0, 162, 0);
+    border: none;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 400px) {
+    #gallery{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    #gallery {
+        display: flex;
+        flex-direction: column;
+    }
+}`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;IACI,SAAS;AACb;;AAEA;IACI,oCAAoC;IACpC,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,aAAa;IACb,yBAAyB;AAC7B;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,WAAW;IACX,oCAAoC;IACpC,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,wBAAwB;AAC5B;;AAEA,sBAAsB;AACtB;IACI,aAAa;IACb,sBAAsB;IACtB,kBAAkB;IAClB,YAAY;IACZ,uBAAuB;IACvB;;;;6CAIwB;IACxB,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;AACtC;;AAEA;IACI,eAAe;IACf,mBAAmB;IACnB,iBAAiB;IACjB,wBAAwB;AAC5B;;AAEA;IACI,eAAe;IACf,WAAW;AACf;;AAEA,cAAc;;AAEd;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,kBAAkB;IAClB,mBAAmB;IACnB,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,YAAY;AAChB;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,OAAO;IACP,kBAAkB;AACtB;;AAEA;IACI,kDAAkD;IAClD,WAAW;IACX,aAAa;IACb,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;IAClC,gCAAgC;AACpC;;AAEA;IACI,gBAAgB;IAChB,qBAAqB;AACzB;;AAEA;IACI,iDAAiD;IACjD,WAAW;IACX,aAAa;IACb,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;IAClC,gCAAgC;AACpC;;AAEA;IACI,gBAAgB;IAChB,qBAAqB;AACzB;;AAEA;IACI,iDAAiD;IACjD,WAAW;IACX,aAAa;IACb,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;IAClC,gCAAgC;AACpC;;AAEA;IACI,gBAAgB;IAChB,qBAAqB;AACzB;;AAEA;IACI,iDAAiD;IACjD,WAAW;IACX,aAAa;IACb,4BAA4B;IAC5B,sBAAsB;IACtB,kCAAkC;IAClC,gCAAgC;AACpC;;AAEA;IACI,gBAAgB;IAChB,qBAAqB;AACzB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,kBAAkB;IAClB,eAAe;IACf,aAAa;AACjB;;AAEA,UAAU;;AAEV;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,OAAO;IACP,sBAAsB;IACtB,aAAa;IACb,uBAAuB;IACvB,gBAAgB;IAChB,mBAAmB;IACnB,gCAAgC;AACpC;;AAEA;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,gBAAgB;IAChB,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,mBAAmB;IACnB,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,YAAY;AAChB;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,WAAW;IACX,eAAe;IACf,gCAAgC;IAChC,YAAY;AAChB;;AAEA,aAAa;;AAEb;IACI;QACI,aAAa;QACb,sBAAsB;IAC1B;AACJ;;AAEA;IACI;QACI,aAAa;QACb,sBAAsB;IAC1B;AACJ","sourcesContent":["*{\r\n    margin: 0;\r\n}\r\n\r\n#content{\r\n    font-family: 'Open Sans', sans-serif;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n#header{\r\n    display: flex;\r\n    justify-content: center;\r\n    padding: 10px;\r\n    background-color: #151723;\r\n}\r\n\r\n.tab{\r\n    padding: 10px;\r\n    margin: 10px;\r\n    color: #fff;\r\n    border: 2px solid rgb(209, 209, 209);\r\n    border-radius: 10px;\r\n}\r\n\r\n.tab:hover{\r\n    cursor: pointer;\r\n    transition: 0.5s;\r\n    background-color: orange;\r\n}\r\n\r\n/*styles of main page*/\r\n#page-content-main{\r\n    display: flex;\r\n    flex-direction: column;\r\n    text-align: center;\r\n    height: 87vh;\r\n    justify-content: center;\r\n    background: linear-gradient(\r\n        0deg,\r\n        rgba(0,0,0,0.5),\r\n        rgba(0,0,0,0.5)\r\n    ),url(assets/img-bg.jpg);\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n}\r\n\r\n#title-main{\r\n    font-size: 40px;\r\n    margin-bottom: 20px;\r\n    font-weight: bold;\r\n    color: rgb(244, 210, 72);\r\n}\r\n\r\n#parrot-main{\r\n    font-size: 20px;\r\n    color: #fff;\r\n}\r\n\r\n/* Menu page */\r\n\r\n#page-content-menu{\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n#title-menu{\r\n    text-align: center;\r\n    margin-bottom: 10px;\r\n    padding: 10px;\r\n}\r\n\r\n#gallery{\r\n    display: flex;\r\n    height: 100%;\r\n}\r\n\r\n#fig1, #fig2, #fig3, #fig4{\r\n    margin: 10px;\r\n    padding: 10px;\r\n    flex: 1;\r\n    text-align: center;\r\n}\r\n\r\n#img1{\r\n    /*background-image: url(/dist/assets/burger.jpg);*/\r\n    width: 100%;\r\n    height: 200px;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#img1:hover{\r\n    transition: 0.5s;\r\n    transform: scale(1.1);\r\n}\r\n\r\n#img2{\r\n    /*background-image: url(/dist/assets/pizza.jpg);*/\r\n    width: 100%;\r\n    height: 200px;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#img2:hover{\r\n    transition: 0.5s;\r\n    transform: scale(1.1);\r\n}\r\n\r\n#img3{\r\n    /*background-image: url(/dist/assets/tacos.jpg);*/\r\n    width: 100%;\r\n    height: 200px;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#img3:hover{\r\n    transition: 0.5s;\r\n    transform: scale(1.1);\r\n}\r\n\r\n#img4{\r\n    /*background-image: url(/dist/assets/pasta.jpg);*/\r\n    width: 100%;\r\n    height: 200px;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#img4:hover{\r\n    transition: 0.5s;\r\n    transform: scale(1.1);\r\n}\r\n\r\ncaption{\r\n    display: flex;\r\n    justify-content: center;\r\n    text-align: center;\r\n    font-size: 20px;\r\n    padding: 10px;\r\n}\r\n\r\n/*Contact*/\r\n\r\n#page-content-contact{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#title-contact{\r\n    text-align: center;\r\n    margin-top: 20px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.contact-form{\r\n    display: flex;\r\n    width: 350px;\r\n    flex: 1;\r\n    flex-direction: column;\r\n    padding: 10px;\r\n    justify-content: center;\r\n    margin-top: 20px;\r\n    border-radius: 10px;\r\n    box-shadow: 5px 5px 10px #616161;\r\n}\r\n\r\n#divInput1, #divInput2, #divInput3{\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\nlabel{\r\n    margin-top: 10px;\r\n    margin-bottom: 10px;\r\n    font-weight: bold;\r\n}\r\n\r\ninput{\r\n    margin-bottom: 10px;\r\n    padding: 10px;\r\n}\r\n\r\n#submitContainer{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    margin: 10px;\r\n}\r\n\r\nbutton{\r\n    padding: 10px;\r\n    width: 140px;\r\n    color: #fff;\r\n    font-size: 20px;\r\n    background-color: rgb(0, 162, 0);\r\n    border: none;\r\n}\r\n\r\n/*Responsive*/\r\n\r\n@media only screen and (max-width: 400px) {\r\n    #gallery{\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 401px) and (max-width: 960px) {\r\n    #gallery {\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -701,10 +1129,13 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ "./src/home.js");
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.css */ "./src/styles.css");
+/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav */ "./src/nav.js");
+/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles.css */ "./src/styles.css");
+
 
 
 function initialLoad() {
+  (0,_nav__WEBPACK_IMPORTED_MODULE_1__["default"])();
   (0,_home__WEBPACK_IMPORTED_MODULE_0__["default"])();
 }
 initialLoad();
@@ -712,4 +1143,4 @@ initialLoad();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle4c8beb8aaaf3ec3658c0.js.map
+//# sourceMappingURL=bundleb7570b47a9df17e8b4d4.js.map
